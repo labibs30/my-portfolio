@@ -28,7 +28,9 @@ const property = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    This app was built using Next JS as the front-end framework, Tailwind CSS as the CSS framework, 
+                    and MySql as the database. This app is a web-based ERP system that can be used by a company to manage their business. 
+                    This app has some main features in order to support company's management system. My duty is to develop asset management system and the manufacturing scheduling system. 
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                 <Link href="">
