@@ -5,7 +5,7 @@ import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useRouter } from 'next/router'
-
+import icon from "../public/assets/icon.jpg"
 const Navbar = () => {
     const [nav,setNav] = useState(false)
     const [shadow,setShadow] = useState(false)
@@ -39,7 +39,7 @@ const Navbar = () => {
     <div style={{backgroundColor:`${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>   
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <div className='flex flex-row border-2 p-2 rounded-xl bg-[#fafafa]'>
-                <Image className='rounded-full border-4' src="/../public/assets/icon.jpg" alt='/' width="50" height='70' />
+                <Image className='rounded-full border-4' src={icon} alt='/' width="50" height='70' />
                 <Link href="/" className='text-xl font-bold myfont mt-3 ml-3 text-[#5651e5]'>𝒶𝓁𝒻𝒶𝓇𝒶𝒷𝓎</Link>
             </div>
             <div>
