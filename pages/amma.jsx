@@ -24,10 +24,12 @@ const property = () => {
         </div>
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
-                <p>Project</p>
+                <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Project</p>
                 <h2>Overview</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Amma is a web application that provide a playlist of Juz Amma. This application is built using Vue Js and Bootsrap for the front-end, Express Js for the back-end,
+                    and Firebase to save collection of data. This application is built for my final project in Web Programming course. 
+                    Users can listen to the audio of Juz Amma and read the translation of each verse. Users can also add the surah to their favorite list.
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                 <Link href="https://github.com/labibs30/fp-pweb.git">
@@ -40,6 +42,7 @@ const property = () => {
                     <div className='grid grid-cols-3 md:grid-cols-1'>
                         <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/> Vue Js</p>
                         <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/> Bootsrap</p>
+                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/> Express JS</p>
                         <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/> Firebase</p>
                         <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/> Javascript</p>
                         <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/> Alquran API</p>
