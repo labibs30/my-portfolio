@@ -29,7 +29,9 @@ const property = () => {
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Project</p>
                 <h2>Overview</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mangan is a web application that provide a catering service. This application is built using Vue Js and Bootsrap for the front-end, Express Js for the back-end,
+                    and MySql to save collection of data. This application is built as my project on learning Vue JS. Users can order the catering service and see the list of their orders.
+                    
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                 <Link href="">

@@ -28,7 +28,10 @@ const property = () => {
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Project</p>
                 <h2>Overview</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Avenys is a web application that provide a list of beauty partners. This application is built using Laravel and Bootsrap for the front-end, PhpMyAdmin for the database.
+                    This application is built for my final project in Open Recruitment of Laboratory Administration of Manajemen Cerdas Informasi at my Department.
+                    Users can buy the beauty products and book the beauty services. Users can also add the beauty products and services to their cart list.
+                    Users can also see the list of their orders and the list of their cart. Administrator can add, edit, and delete the beauty products and services.
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                 <Link href="https://github.com/labibs30/fp-pweb.git">
